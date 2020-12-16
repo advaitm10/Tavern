@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import { Provider } from 'react-redux'
 import store from 'store';
 
 import NavBar from './NavBar';
 
 function App() {
     return (
-        <NavBar/>
+        <Provider store = {store}>
+            <NavBar/>
+        </Provider>
     );
 }
 
