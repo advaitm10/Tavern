@@ -27,7 +27,7 @@ function NavBar(props) {
 
     return (
         <div className={classes.root}>
-            <AppBar className={classes.appBar} position = 'static'>
+            <AppBar className={classes.appBar} position = 'fixed'>
                 <Toolbar>
                     <Link className={classes.title} href = "#" onClick = {preventDefault} color = "inherit">
                         Tavern
