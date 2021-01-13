@@ -11,9 +11,6 @@ const localAccountSlice = createSlice({
         },
         signOut: state => {
 
-        },
-        createAccount: (state, action) => {
-
         }
     }
 })
